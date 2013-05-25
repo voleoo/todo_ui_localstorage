@@ -1,0 +1,234 @@
+body{
+	background: #bb4d00 url(../img/background.png) repeat-x;
+}
+.project_head{
+	margin-top: 20px;
+	background: url(../img/background-project.png);
+	border: 1px solid #315589;
+	border-radius: 2px;
+	height: 50px;
+}
+.calendar{
+	background: url(../img/calendar.png);
+	margin: 13px 0px 0px 13px;
+	width: 24px;
+	height: 24px;
+	float: left;
+}
+.project_name{
+	text-align: left;
+	margin: 15px 0px 0px 15px;
+	width: 800px; 
+	font-size: 22px;
+	color: #ffffff;
+	float: left;
+}
+input.input_name{
+	text-align: left;
+	margin: 8px 10px 0px 15px;
+	width: 785px; 
+	font-size: 20px;
+	color: #999999;
+	float: left;
+}
+
+.options{
+	margin: 15px 0px 0px 15px;
+}
+.pencil_head{
+	background: url(../img/pencil.png);
+	width: 16px;
+	height: 16px;
+	float: left;
+}
+.trash_head{
+	background: url(../img/trash.png);
+	width: 16px;
+	height: 16px;
+	float: left;
+}
+.vertical_line{
+	background: url(../img/vertical_line.png);
+	margin: 0px 10px 0px 10px;
+	height: 16px;
+	width: 1px;
+	float: left;
+}
+.task-form{
+	background: #dddddd;
+	border: #b2b2a2;
+	min-height: 50px;
+	text-align: left;
+}
+.big_green_plus{
+	background: url(../img/big_green_plus.png);
+	margin: 13px 0px 0px 13px;
+	height: 24px;
+	width: 24px;
+	float: left;
+}
+input.input_task{
+	font-size: 18px;
+	margin: 7px 0px 0px 13px;
+	width: 700px;
+	height: 22px;
+	float: left;
+}
+.create_task{
+	background: url(../img/button_create_task.png);
+	border-radius: 0px 5px 5px 0px;
+	border: 1px solid #447557;
+	padding-top: 5px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 18px;
+	height: 23px;
+	width: 165px;
+	margin: 8px 0px 0px 0px;
+	float: left;
+}
+.create_task:hover{
+	font-size: 20px;
+}
+.container{
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+	margin: 0px;
+}
+li.task{
+	background: #ffffff;
+	border-bottom: 2px solid #e7ebea;
+	border-left: 2px solid #e7ebea;
+	border-style: 2px solid #e7ebea;
+	min-height: 50px;
+}
+li.task:hover {
+	background: #fcfed5;
+}
+li:last-child {
+	border-radius: 0px 0px 15px 15px;
+}
+li:first-child .sotr_up{
+	display: none;
+}
+li:first-child .hr_line{
+	margin-top: 6px;
+}
+li:last-child .sotr_down{
+	display: none;
+}
+.check_box{
+	border-right: 2px solid #efdadf;
+	padding-top: 15px;
+	min-height: 35px;
+	width: 40px;
+	float: left;
+}
+.task_body{
+	text-align: left;
+	margin-left: 10px;
+	padding-left: 15px;
+	padding-top: 17px;
+	min-height: 35px;
+	width: 700px;
+	border-left: 2px solid #efdadf;
+	border-right: 2px solid #e7ebea;
+	float: left;
+	color: #999999;
+	font-size: 20px;
+}
+input.edit_task{
+	color: #999999;
+	font-size: 18px;
+	margin: 7px 8px 0px 13px;
+	width: 680px;
+	height: 22px;
+	float: left;
+}
+div.edit_task{
+	text-align: left;
+	margin-left: 10px;
+	min-height: 50px;
+	width: 715px;
+	border-left: 2px solid #efdadf;
+	border-right: 2px solid #e7ebea;
+	float: left;
+	color: #999999;
+	font-size: 20px;
+}
+.options_task{
+	display: none;
+	padding-left: 15px;
+	min-height: 32px;
+	float: left;
+	padding-top: 18px;
+}
+li.task:hover .options_task{
+	display: block;
+}
+.option_sort{
+	margin-left: 22px;
+	float: left;
+}
+.sotr_up{
+	background: url(../img/up.png);
+	height: 4px;
+	width: 6px;
+	margin-left: 2px;
+	border: 1px solid #000000;
+}
+.sotr_down{
+	background: url(../img/down.png);
+	height: 4px;
+	width: 6px;
+	margin-left: 2px;
+	border: 1px solid #000000;
+}
+.hr_line{
+	background: url(../img/hr_line.png);
+	height: 1px;
+	width: 10px;
+	margin: 2px 0px 2px 0px;
+}
+.option_edit{
+	background: url(../img/pencil_small.png);
+	height: 12px;
+	width: 12px;
+	float: left;
+}
+.option_trash{
+	background: url(../img/trash_small.png);
+	height: 12px;
+	width: 12px;
+	float: left;
+}
+.option_line{
+	background: url(../img/vertical_small.png);
+	margin: 0px 15px 0px 15px;
+	height: 13px;
+	width: 1px;
+	float: left;
+}
+.create_project{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	background: url(../img/background-project.png);
+	border: 1px solid #315589;
+	border-radius: 2px;
+	height: 30px;
+	width: 250px;
+	color: #ffffff;
+	font-size: 24px;
+}
+.displayNone{
+	display: none;
+}
+.displayBlock{
+	display: block;
+}
+.checked{
+	text-decoration: line-through;
+}
